@@ -1,0 +1,16 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Hero from '../components/Hero.astro';
+import Navbar from  '../components/Navbar.astro';
+import Services from '../components/Services.astro';
+---
+
+<Layout 
+	title="Codigoverso | Tu Agencia de Desarrollo Web y Marketing Digital en Castellón" 
+	meta_description="Ofrecemos soluciones integrales de desarrollo web y estrategias de marketing digital para potenciar tu presencia en línea. Desde la creación de sitios web a medida y gestión de redes sociales, nuestro equipo experto está aquí para ayudarte a alcanzar tus objetivos en línea. Somos una agencia en continua expansión, comprometidos con la excelencia y la innovación en cada proyecto. ¡Confía en nosotros para llevar tu negocio al siguiente nivel en el mundo digital!">
+	<Navbar></Navbar>	
+	<main class="pt-28">
+		<Hero></Hero>
+		<Services></Services>
+	</main>
+</Layout>
